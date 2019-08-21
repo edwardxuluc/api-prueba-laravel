@@ -1,3 +1,3 @@
 ## Aplicación en REACT
 
-Api en laravel para guardas las palabras buscadas en la aplicación de "app-prueba-react"
+API REST en laravel para guardar las palabras buscadas en la aplicación [app-prueba-react](https://github.com/edwardxuluc/app-prueba-react)
