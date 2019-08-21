@@ -16,3 +16,7 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('busqueda/', 'BusquedaController@index');
+Route::post('busqueda/', 'BusquedaController@store');
+Route::delete('busqueda/{id}', 'BusquedaController@destroy');
