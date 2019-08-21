@@ -15,7 +15,7 @@ class BusquedaController extends Controller
      */
     public function index(){
         try{
-            $busqueda = Busqueda::take(10)->get();
+            $busqueda = Busqueda::orderBy('created_at', 'DESC')->take(10)->get();
 
             return response()->json([
                 'data' => $busqueda
